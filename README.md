@@ -14,6 +14,7 @@
 | `scripts/coupang_sales_pick.js` | 쿠팡 판매량순 검색 화면에서 상품 목록(순위·광고 여부·상품번호·이름·가격·리뷰수·사진) 뽑기 |
 | `scripts/coupang_browser_pick.py` | 고른 상품 정보·대표사진 저장 + 간편링크 |
 | `scripts/coupang_api.py` | 쿠팡 딥링크 API + 한도 보호 안전장치 |
+| `scripts/sourcing_plan.py` | 소싱 순서 관리(1단계 최근 1달 → 2단계 2달 뒤 → 3단계 욕실·주방·거실), 부피 큰 제품 제외 |
 | `references/guide.md` | 사람이 읽는 자세한 지침 |
 
 ## 주의

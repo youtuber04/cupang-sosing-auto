@@ -1,3 +1,4 @@
 .env
 __pycache__/
 *.pyc
+sourcing_state.json

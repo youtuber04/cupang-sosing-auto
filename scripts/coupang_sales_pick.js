@@ -12,7 +12,7 @@
     seen.add(m[1]);
     const li = a.closest('li') || a;
     const text = (li.innerText || '').replace(/\s+/g, ' ').trim();
-    const ad = /_ads|adsplatform/.test(a.href) || /광고/.test(text) || !!li.querySelector('[class*="AdMark" i], [class*="ad-badge" i]');
+    const ad = /_ads|adsplatform|adType=/.test(a.href) || /광고/.test(text) || !!li.querySelector('[class*="AdMark" i], [class*="ad-badge" i]');
     const img = li.querySelector('img');
     const priceEl = li.querySelector('[class*="price-value"], [class*="Price_priceValue"], strong[class*="price" i]');
     const rateEl = li.querySelector('[class*="ProductRating_productRating"], [class*="rating-total-count"]');
